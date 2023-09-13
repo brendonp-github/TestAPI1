@@ -49,7 +49,7 @@ namespace TestAPI1.Controllers
             //}
             item.IngredientID = id;
             var existingItem = await _context.Ingredient.FindAsync(id);
-            existingItem.Name = item.Name;
+            existingItem.Name = item.Name + "1";
             existingItem.Amount = item.Amount;
             _context.Entry(existingItem).State = EntityState.Modified;
             try
