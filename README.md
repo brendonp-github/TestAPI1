@@ -1,6 +1,6 @@
 # TestAPI1
 ## Overview
-Verty basic demonstration .Net API by Brendon Prasek, backend for the Angular front end: https://github.com/brendonp-github/Umedy1-1
+Very basic demonstration .Net API by Brendon Prasek, backend for the Angular front end: https://github.com/brendonp-github/Umedy1-1
 
 Technologies employed:
 * REST API connecting to SQL Server database
